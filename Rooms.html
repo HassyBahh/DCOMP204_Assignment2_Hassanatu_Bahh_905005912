@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Accommodation | StudentStay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="index.html"><span class="logo-icon">🏠</span> Student<span>Stay</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a><a href="about.html">About</a>
+      <a class="active" href="Rooms.html">Rooms</a><a href="mainfeature.html">Main Feature</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="button button-light" href="contact.html">Log in</a>
+      <a class="button button-blue" href="contact.html">Sign in</a>
+    </div>
+  </header>
+
+  <main class="section listings-layout">
+    <aside class="filter-panel">
+      <h2>☷ &nbsp; Filter results</h2>
+
+      <fieldset>
+        <legend>Price range (Le/mo)</legend>
+        <input class="price-range" type="range" min="500" max="2000" value="1000" aria-label="Maximum price">
+        <div class="range-labels"><span>500K</span><span>2M+</span></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>📍 &nbsp; Distance to campus</legend>
+        <label class="check-row"><input type="checkbox"> Under 10 min walk</label>
+        <label class="check-row"><input type="checkbox"> Under 20 min walk</label>
+        <label class="check-row"><input type="checkbox"> Any distance</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>🛏 &nbsp; Room Types</legend>
+        <label class="check-row"><input type="checkbox"> Single Room</label>
+        <label class="check-row"><input type="checkbox"> Share Room</label>
+        <label class="check-row"><input type="checkbox"> Studio</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>★ &nbsp; Amenities</legend>
+        <label class="check-row"><input type="checkbox"> Wifi Included</label>
+        <label class="check-row"><input type="checkbox"> Private Bathroom</label>
+        <label class="check-row"><input type="checkbox"> Furnished</label>
+      </fieldset>
+
+      <button class="button button-blue full-width" type="button">☷ &nbsp; Apply filters</button>
+    </aside>
+
+    <div class="listing-results">
+      <section class="university-group">
+        <div class="university-heading">
+          <span>▦</span><div><h1>Rooms near Fourah Bay College</h1><p>📍 Freetown, Sierra Leone</p></div>
+        </div>
+        <div class="property-grid two-columns">
+          <article class="property-card">
+            <a href="listing.html">
+              <div class="property-photo">
+                <img src="images/download (4).jpg" alt="Student bedroom">
+                <span class="verified">✓ Verified</span><span class="favorite">♡</span>
+              </div>
+              <div class="property-info"><h3>Shared 2-bed, Kissy Road</h3><div class="property-meta"><span>🚶 22 min walk · 📍 FBC</span><strong>Le 1500K/month</strong></div></div>
+            </a>
+          </article>
+          <article class="property-card">
+            <a href="listing.html">
+              <div class="property-photo">
+                <img src="images/2 bed room.jpg" alt="Furnished shared room">
+                <span class="verified">✓ Verified</span><span class="favorite">♡</span>
+              </div>
+              <div class="property-info"><h3>2 Bed room, Mount Aureol Road</h3><div class="property-meta"><span>🚶 15 min walk · 📍 FBC</span><strong>Le 500K/month</strong></div></div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="university-group">
+        <div class="university-heading">
+          <span>▦</span><div><h2>Rooms near Limkokwing University</h2><p>📍 Freetown, Sierra Leone</p></div>
+        </div>
+        <div class="property-grid two-columns">
+          <article class="property-card">
+            <a href="listing.html">
+              <div class="property-photo">
+                <img src="images/download (5).jpg" alt="Single room with desk">
+                <span class="verified">✓ Verified</span><span class="favorite">♡</span>
+              </div>
+              <div class="property-info"><h3>Single room, St. Mary’s</h3><div class="property-meta"><span>🚶 15 min walk · 📍 LIM</span><strong>Le 750K/month</strong></div></div>
+            </a>
+          </article>
+          <article class="property-card">
+            <a href="listing.html">
+              <div class="property-photo">
+                <img src="images/2 Bedroom Apartment Plans Idea 7.jpg" alt="Modern furnished bedroom">
+                <span class="verified">✓ Verified</span><span class="favorite">♡</span>
+              </div>
+              <div class="property-info"><h3>2 Bed room, Imatt</h3><div class="property-meta"><span>🚶 20 min walk · 📍 LIM</span><strong>Le 1,000K/month</strong></div></div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <nav class="pagination" aria-label="Pagination">
+        <a class="current" href="Rooms.html">1</a><a href="Rooms.html">2</a>
+        <a href="Rooms.html">3</a><a href="Rooms.html">→</a>
+      </nav>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><a class="logo" href="index.html">🏠 Student<span>Stay</span></a><p>Your Student Home, Our priority</p></div>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a><a href="about.html">About</a>
+        <a href="Rooms.html">Rooms</a><a href="listing.html">Main Feature</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-contact">
+        <p>☎ &nbsp; 072001302</p><p>✉ &nbsp; StudentStaySL@gmail.com</p>
+        <p>📍 &nbsp; Freetown, Sierra Leone</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+```
